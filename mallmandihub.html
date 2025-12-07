@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mall Mandi Hub - Transform Your Vendor Business | Join the Marketplace Revolution</title>
+    <meta name="description" content="Join 10,000+ vendors growing their business with Mall Mandi Hub. Zero setup fees, instant payments, and access to millions of customers. Start selling today!">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .hero-gradient { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .btn-primary { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(255, 107, 107, 0.3); }
+        .text-gradient { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .floating { animation: floating 3s ease-in-out infinite; }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .pulse-btn { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(255, 107, 107, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0); }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-gradient">Mall Mandi Hub</h1>
+                    </div>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-red-500 transition">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-red-500 transition">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-red-500 transition">Success Stories</a>
+                    <a href="#pricing" class="text-gray-700 hover:text-red-500 transition">Pricing</a>
+                    <button onclick="scrollToSignup()" class="btn-primary text-white px-6 py-2 rounded-full font-semibold transition pulse-btn">
+                        Start Selling Now
+                    </button>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white pt-20 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                        Transform Your Vendor Business with 
+                        <span class="text-yellow-300">Mall Mandi Hub</span>
+                    </h1>
+                    <p class="text-xl mb-8 text-gray-100">
+                        Join 10,000+ vendors growing their business with zero setup fees, instant payments, and access to millions of customers. Start selling in minutes, not days!
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <button onclick="scrollToSignup()" class="bg-white text-red-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition floating">
+                            <i class="fas fa-rocket mr-2"></i>
+                            Start Selling Free
+                        </button>
+                        <button onclick="scrollToDemo()" class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-red-600 transition">
+                            <i class="fas fa-play mr-2"></i>
+                            Watch Demo
+                        </button>
+                    </div>
+                    <div class="flex items-center space-x-6 text-sm">
+                        <div class="flex items-center">
+                            <i class="fas fa-star text-yellow-300 mr-2"></i>
+                            <span>4.9/5 Rating</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-users text-green-300 mr-2"></i>
+                            <span>10,000+ Vendors</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-shield-alt text-blue-300 mr-2"></i>
+                            <span>100% Secure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative" data-aos="fade-left">
+                    <div class="floating">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cf8704a38e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Vendor Dashboard" class="rounded-2xl shadow-2xl w-full">
+                    </div>
+                    <div class="absolute -top-4 -right-4 bg-white text-red-600 px-4 py-2 rounded-full font-bold">
+                        🔥 Limited Time Offer
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="bg-white py-8 border-b">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold text-red-600 mb-2">₹50Cr+</div>
+                    <div class="text-gray-600">Monthly Sales</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-red-600 mb-2">2M+</div>
+                    <div class="text-gray-600">Happy Customers</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-red-600 mb-2">500+</div>
+                    <div class="text-gray-600">Cities Covered</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-red-600 mb-2">99.9%</div>
+                    <div class="text-gray-600">Uptime</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Why Vendors Love Mall Mandi Hub</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Everything you need to grow your business, all in one powerful platform
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-bolt text-2xl text-red-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Instant Setup & Go Live</h3>
+                    <p class="text-gray-600 mb-4">Get your store online in under 5 minutes. No technical knowledge required - just upload your products and start selling!</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>5-minute setup process</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>No coding required</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Mobile-optimized store</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-rupee-sign text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Zero Setup Fees</h3>
+                    <p class="text-gray-600 mb-4">Start selling without any upfront investment. We only charge when you make sales - no hidden fees!</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>No registration fees</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>No monthly charges</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Transparent pricing</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Access Millions of Customers</h3>
+                    <p class="text-gray-600 mb-4">Tap into our massive customer base actively looking for products like yours. Get discovered by the right audience.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>2M+ active customers</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Targeted marketing</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>City-wise reach</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-credit-card text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Instant Payments</h3>
+                    <p class="text-gray-600 mb-4">Get paid instantly when orders are delivered. No waiting periods or payment delays - your money, when you need it.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Same-day settlements</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Multiple payment options</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Secure transactions</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover" data-aos="fade-up" data-aos-delay="500">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Powerful Analytics</h3>
+                    <p class="text-gray-600 mb-4">Track your sales, understand customer behavior, and make data-driven decisions to grow your business faster.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Real-time dashboard</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Sales insights</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Customer analytics</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg card-hover" data-aos="fade-up" data-aos-delay="600">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-2xl text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">24/7 Support</h3>
+                    <p class="text-gray-600 mb-4">Get dedicated support whenever you need it. Our team is here to help you succeed at every step of your journey.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Phone & chat support</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Training resources</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Success managers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Grow Your Business 10x Faster</h2>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Join thousands of vendors who have transformed their businesses with Mall Mandi Hub. Our platform is designed to help you scale efficiently and profitably.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Increase Sales by 300%</h4>
+                                <p class="text-gray-600">Our optimized marketplace and marketing tools help you reach more customers and sell more products.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Reduce Operational Costs</h4>
+                                <p class="text-gray-600">Automated processes and efficient logistics help you save time and money while focusing on growth.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fas fa-check text-green-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 mb-2">Expand to New Markets</h4>
+                                <p class="text-gray-600">Reach customers across 500+ cities and grow your business beyond local limitations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button onclick="scrollToSignup()" class="btn-primary text-white px-8 py-4 rounded-full font-bold mt-8 transition">
+                        Start Growing Today <i class="fas fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+                
+                <div class="relative" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Business Growth" class="rounded-2xl shadow-2xl w-full">
+                    <div class="absolute -bottom-6 -left-6 bg-red-600 text-white px-6 py-3 rounded-2xl font-bold">
+                        300% Growth Rate
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Success Stories from Our Vendors</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real stories from real vendors who transformed their businesses with Mall Mandi Hub
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "Mall Mandi Hub changed everything for my business. I went from selling locally to reaching customers across 50+ cities. My sales increased by 400% in just 6 months!"
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Rajesh Kumar" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Rajesh Kumar</h4>
+                            <p class="text-gray-600 text-sm">Electronics Vendor, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "The instant payment feature is a game-changer. I no longer have to wait weeks to get my money. Plus, the analytics help me understand what products work best."
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b5bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Priya Sharma" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Priya Sharma</h4>
+                            <p class="text-gray-600 text-sm">Fashion Boutique, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">
+                        "I was skeptical about online selling, but Mall Mandi Hub made it so easy. Their support team helped me every step of the way. Now 80% of my sales come through the platform!"
+                    </p>
+                    <div class="flex items-center">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Suresh Patel" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold text-gray-900">Suresh Patel</h4>
+                            <p class="text-gray-600 text-sm">Home Decor Store, Ahmedabad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="pricing" class="py-20 hero-gradient text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
+                <p class="text-xl mb-8 text-gray-100">
+                    Join thousands of vendors who are already growing their business with Mall Mandi Hub. No setup fees, no hidden costs - just pure growth!
+                </p>
+                
+                <div class="bg-white text-gray-900 p-8 rounded-2xl shadow-2xl mb-8 max-w-2xl mx-auto">
+                    <h3 class="text-2xl font-bold mb-4">Limited Time Offer</h3>
+                    <div class="text-4xl font-bold text-red-600 mb-2">₹0</div>
+                    <div class="text-lg text-gray-600 mb-4">Setup Fee</div>
+                    <p class="text-gray-600 mb-6">Pay only when you make sales. No monthly charges, no hidden fees.</p>
+                    <ul class="text-left space-y-2 mb-6">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Zero registration fees</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Instant payments</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Access to 2M+ customers</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>24/7 support</li>
+                    </ul>
+                    <button onclick="scrollToSignup()" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-lg w-full transition">
+                        Start Selling Free Now
+                    </button>
+                </div>
+                
+                <div class="text-sm text-gray-300">
+                    <i class="fas fa-shield-alt mr-2"></i>
+                    30-day money-back guarantee • No credit card required to start
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Form Section -->
+    <section id="signup" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Start Your Journey Today</h2>
+                <p class="text-xl text-gray-600">Fill in your details and join 10,000+ successful vendors</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-2xl shadow-2xl" data-aos="fade-up" data-aos-delay="200">
+                <form id="vendorSignupForm" class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Business Name *</label>
+                            <input type="text" name="business_name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Your Name *</label>
+                            <input type="text" name="owner_name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number *</label>
+                            <input type="tel" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                            <input type="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Business Category *</label>
+                            <select name="category" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                                <option value="">Select Category</option>
+                                <option value="fashion">Fashion & Clothing</option>
+                                <option value="electronics">Electronics</option>
+                                <option value="home">Home & Living</option>
+                                <option value="beauty">Beauty & Personal Care</option>
+                                <option value="food">Food & Beverages</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">City *</label>
+                            <input type="text" name="city" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Tell us about your products (optional)</label>
+                        <textarea name="description" rows="3" placeholder="Describe what you sell..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"></textarea>
+                    </div>
+                    
+                    <div class="flex items-center">
+                        <input type="checkbox" name="terms" required class="mr-3">
+                        <label class="text-sm text-gray-600">I agree to the terms and conditions and privacy policy *</label>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-lg w-full transition pulse-btn">
+                        <span id="submitText">Start Selling Free</span>
+                        <span id="loadingText" class="hidden">Processing...</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-gradient mb-4">Mall Mandi Hub</h3>
+                    <p class="text-gray-400 mb-4">Empowering vendors to reach millions of customers across India.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">For Vendors</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">How it Works</a></li>
+                        <li><a href="#" class="hover:text-white">Pricing</a></li>
+                        <li><a href="#" class="hover:text-white">Success Stories</a></li>
+                        <li><a href="#" class="hover:text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Blog</a></li>
+                        <li><a href="#" class="hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Contact Info</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i>+91 98765 43210</li>
+                        <li><i class="fas fa-envelope mr-2"></i>support@mallmandihub.com</li>
+                        <li><i class="fas fa-clock mr-2"></i>24/7 Support</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Mall Mandi Hub. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+
+        // Smooth scrolling
+        function scrollToSignup() {
+            document.getElementById('signup').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function scrollToDemo() {
+            // You can add demo video functionality here
+            alert('Demo video would play here - integrate with your video platform');
+        }
+
+        // Form submission
+        document.getElementById('vendorSignupForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const submitBtn = e.target.querySelector('button[type="submit"]');
+            const submitText = document.getElementById('submitText');
+            const loadingText = document.getElementById('loadingText');
+            
+            // Show loading state
+            submitText.classList.add('hidden');
+            loadingText.classList.remove('hidden');
+            submitBtn.disabled = true;
+            
+            // Simulate form submission (replace with actual API call)
+            setTimeout(() => {
+                // Reset button
+                submitText.classList.remove('hidden');
+                loadingText.classList.add('hidden');
+                submitBtn.disabled = false;
+                
+                // Show success message
+                alert('Thank you for your interest! Our team will contact you within 24 hours to help you get started.');
+                e.target.reset();
+            }, 2000);
+        });
+
+        // Mobile menu toggle (if needed)
+        document.querySelector('.mobile-menu-button').addEventListener('click', function() {
+            // Add mobile menu functionality if needed
+            alert('Mobile menu would open here - add responsive navigation as needed');
+        });
+
+        // Add scroll effect to navigation
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+    </script>
+</body>
+</html>
